@@ -1,0 +1,31 @@
+{
+    "name": "serendipitynl/laravel-flasher",
+    "description": "A package to manage flash messages in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Serendipitynl\\Flasher\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Douwe de Haan",
+            "email": "rinzedouwedehaan@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "Flash": "Serendipitynl\\Flasher\\Facades\\Flash"
+            },
+            "providers": [
+                "Serendipitynl\\Flasher\\FlasherServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/collections": "^9.4",
+        "illuminate/support": "^9.5"
+    }
+}
