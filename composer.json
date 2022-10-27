@@ -23,9 +23,5 @@
                 "Serendipitynl\\Flasher\\FlasherServiceProvider"
             ]
         }
-    },
-    "require": {
-        "illuminate/collections": "^9.4",
-        "illuminate/support": "^9.5"
     }
 }
